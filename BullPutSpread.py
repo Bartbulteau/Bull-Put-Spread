@@ -206,4 +206,5 @@ class BullPutSpread:
         plt.xlabel('Strike')
         plt.ylabel('Delta')
         plt.title(f'{self.ticker} Puts Delta Smile ({maturity})')
+        plt.legend()
         plt.show()
