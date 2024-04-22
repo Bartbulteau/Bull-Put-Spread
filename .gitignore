@@ -1,0 +1,5 @@
+# avoid .DS_Store files
+.DS_Store
+
+# avoid __pycache__ files and folders
+__pycache__/
